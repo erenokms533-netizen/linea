@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linea AI — Privacy Policy / Gizlilik Politikası</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1c1c1e; --muted: #6c6c70;
+    --rule: #e3e3e6; --accent: #7a5a3a; --box: #f6f4f1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #131313; --fg: #ececec; --muted: #9a9a9e;
+      --rule: #2c2c2e; --accent: #c9a37a; --box: #1c1b1a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto; padding: 40px 22px 80px; max-width: 46rem;
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  h1 { font-size: 1.7rem; line-height: 1.25; margin: 0 0 .2em; }
+  h2 { font-size: 1.2rem; margin: 2.2em 0 .6em; padding-top: .8em; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1rem; margin: 1.6em 0 .4em; }
+  p, li { margin: .6em 0; }
+  ul { padding-left: 1.3em; }
+  a { color: var(--accent); }
+  code { background: var(--box); padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+  .meta { color: var(--muted); font-size: .9rem; margin: 0 0 2em; }
+  .langnav { margin: 0 0 2.4em; font-size: .95rem; }
+  .langnav a { margin-right: 1em; }
+  .box { background: var(--box); border-radius: 10px; padding: 14px 18px; margin: 1.2em 0; }
+  .box p:first-child { margin-top: 0; } .box p:last-child { margin-bottom: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: .93rem; display: block; overflow-x: auto; }
+  th, td { text-align: left; padding: .5em .7em; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-weight: 600; }
+  footer { margin-top: 3.5em; padding-top: 1.2em; border-top: 1px solid var(--rule); color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<p class="meta">Linea AI · Last updated: [[TARİH — ör. 29 July 2026]]</p>
+
+<p class="langnav"><strong>English</strong> · <a href="#tr">Türkçe için buraya</a></p>
+
+<p>This policy explains what Linea AI (“the app”) collects, why, who else sees it, and what you can do about it. It is written to describe the app as it actually works.</p>
+
+<h2>1. Who is responsible</h2>
+<p>The data controller is [[YASAL AD — şahıs adın ya da şirket adın]], reachable at <a href="mailto:[[İLETİŞİM E-POSTASI]]">[[İLETİŞİM E-POSTASI]]</a>.</p>
+
+<h2>2. What the app collects</h2>
+<table>
+  <tr><th>Data</th><th>Why</th><th>Kept</th></tr>
+  <tr><td>Email address (if you sign up with email)</td><td>To create your account and let you reset your password</td><td>Until you delete your account</td></tr>
+  <tr><td>Apple account identifier (if you use Sign in with Apple)</td><td>To create your account. If you choose to hide your address, we only ever see Apple’s relay address</td><td>Until you delete your account</td></tr>
+  <tr><td>Your highlights: quoted text, your own notes, tags, favourite marks, page numbers, book titles and authors, timestamps</td><td>This is the archive — it is the product</td><td>Until you delete them or your account</td></tr>
+  <tr><td>Scan counters (how many extractions you have run, and when)</td><td>To enforce free and subscription limits and to protect against abuse</td><td>Until you delete your account</td></tr>
+  <tr><td>Subscription records: Apple transaction identifier, product identifier, expiry date, environment</td><td>To know whether your subscription is active</td><td>Until you delete your account</td></tr>
+  <tr><td>Technical measurements: number of tokens a request used, how long it took, which model and prompt version ran</td><td>To monitor cost and quality</td><td>Short-term server logs</td></tr>
+</table>
+
+<h3>Photographs</h3>
+<div class="box">
+  <p><strong>Your photographs are not stored.</strong> A photo of a book page is sent to our server, forwarded to the AI provider for text extraction, and discarded once the text comes back. Only the extracted text is saved to your archive. The app has no image storage and never uploads photos to a bucket or database.</p>
+</div>
+
+<h3>What the app does <em>not</em> collect</h3>
+<ul>
+  <li>No analytics, telemetry, or crash-reporting SDKs. The app contains no tracking libraries of any kind.</li>
+  <li>No advertising identifiers. No advertising, and no data sold or shared for advertising.</li>
+  <li>No location, contacts, calendar, health, or microphone data.</li>
+  <li>No content of your highlights in our server logs — only counts and timings are logged, never text or images.</li>
+</ul>
+
+<h2>3. How photographs are processed by AI</h2>
+<p>Text extraction is done by <strong>Google’s Gemini API</strong>. The photo travels from your device to our server, and from there to Google. The AI provider’s key is held only on our server; it is never in the app.</p>
+
+<div class="box">
+  <p><strong>[[ÜCRETSİZ KATMANDAYSAN BU PARAGRAF KALMALI]]</strong> The app currently uses Google’s free API tier. Under Google’s terms for that tier, Google may use the content sent to the API — including your page photographs — to improve its services and models. If this matters to you, do not scan pages you consider sensitive.</p>
+  <p><strong>[[ÜCRETLİ KATMANA GEÇTİĞİNDE YUKARIDAKİNİ SİL, BUNU BIRAK]]</strong> The app uses Google’s paid API tier. Under Google’s terms for that tier, content sent to the API is not used to train or improve Google’s models.</p>
+</div>
+
+<h2>4. Who else processes your data</h2>
+<table>
+  <tr><th>Provider</th><th>Role</th><th>What they receive</th></tr>
+  <tr><td>Supabase</td><td>Hosting, database, authentication</td><td>Your account and your archive</td></tr>
+  <tr><td>Google (Gemini API)</td><td>Text extraction from images</td><td>The page photograph, transiently</td></tr>
+  <tr><td>Apple</td><td>Sign in with Apple, subscription billing, app distribution</td><td>Whatever Apple’s own terms cover; we receive only a transaction identifier and expiry</td></tr>
+  <tr><td>Brevo</td><td>Sending password-reset email</td><td>Your email address, only when you request a reset</td></tr>
+</table>
+<p>Your data is stored on Supabase infrastructure in [[SUPABASE BÖLGESİ — panelden bak, ör. eu-central-1]]. If you use the app from outside that region, your data is transferred there.</p>
+<p>We do not sell your data. We do not share it with anyone beyond the providers above.</p>
+
+<h2>5. The app works without an account</h2>
+<p>You can use the app’s local archive without signing in; highlights you create stay on your device. Signing in adds cloud backup and is required to run AI extraction, because extraction limits and subscriptions are tied to an account.</p>
+
+<h2>6. Your rights</h2>
+<p>You may ask to access, correct, export, or erase your data, to object to processing, or to withdraw consent. Under Turkish law (KVKK Art. 11) and, if you are in the EEA or UK, under the GDPR (Arts. 15–22), these rights apply directly.</p>
+<p>Two of them are built in and need no request:</p>
+<ul>
+  <li><strong>Delete a highlight or a book</strong> — from within the app, at any time.</li>
+  <li><strong>Delete your account</strong> — Profile → Delete account. This erases your account and everything synced to the cloud, permanently. The archive on your device is left alone, because you may be giving up the account and not your notes.</li>
+</ul>
+<p>For anything else, write to <a href="mailto:[[İLETİŞİM E-POSTASI]]">[[İLETİŞİM E-POSTASI]]</a>. You also have the right to complain to your data protection authority (in Turkey, the KVKK Board).</p>
+
+<h2>7. Security</h2>
+<ul>
+  <li>All traffic uses HTTPS/TLS.</li>
+  <li>Row-level security is enabled on every table: the database itself refuses to return one user’s rows to another.</li>
+  <li>The AI provider’s key exists only as a server secret. It is not in the app binary and cannot be extracted from it.</li>
+  <li>Passwords are handled by Supabase Auth and are never visible to us.</li>
+</ul>
+<p>No system is perfectly secure. If you find a vulnerability, please write to us before disclosing it.</p>
+
+<h2>8. Children</h2>
+<p>The app is not intended for children under [[YAŞ — App Store Connect'teki yaş derecelendirmesiyle AYNI olmalı, ör. 13]]. We do not knowingly collect data from them. If you believe a child has created an account, contact us and we will remove it.</p>
+
+<h2>9. Copyright and what you photograph</h2>
+<p>You are responsible for having the right to photograph the pages you scan. The app is built for keeping personal excerpts from books you read — see the Terms of Use for the detail.</p>
+
+<h2>10. Changes</h2>
+<p>If this policy changes materially, the app will show the new version and, where the law requires it, ask for your consent again. The “last updated” date above always reflects the current version.</p>
+
+<h2>11. Contact</h2>
+<p><a href="mailto:[[İLETİŞİM E-POSTASI]]">[[İLETİŞİM E-POSTASI]]</a></p>
+
+
+<h1 id="tr" style="margin-top:3.5em">Gizlilik Politikası</h1>
+<p class="meta">Linea AI · Son güncelleme: [[TARİH — ör. 29 Temmuz 2026]]</p>
+
+<p>Bu metin Linea AI'nın (“uygulama”) neyi topladığını, niçin topladığını, başka kimin gördüğünü ve senin ne yapabileceğini anlatıyor. Uygulamanın gerçekte nasıl çalıştığını tarif edecek şekilde yazıldı.</p>
+
+<h2>1. Sorumlu kim</h2>
+<p>Veri sorumlusu [[YASAL AD]], iletişim adresi <a href="mailto:[[İLETİŞİM E-POSTASI]]">[[İLETİŞİM E-POSTASI]]</a>.</p>
+
+<h2>2. Uygulama neyi topluyor</h2>
+<table>
+  <tr><th>Veri</th><th>Niçin</th><th>Ne kadar</th></tr>
+  <tr><td>E-posta adresi (e-postayla kaydolduysan)</td><td>Hesabını oluşturmak ve şifre sıfırlamanı sağlamak için</td><td>Hesabını silene kadar</td></tr>
+  <tr><td>Apple hesap kimliği (Apple ile Giriş kullandıysan)</td><td>Hesabını oluşturmak için. Adresini gizlemeyi seçersen biz yalnızca Apple'ın yönlendirme adresini görürüz</td><td>Hesabını silene kadar</td></tr>
+  <tr><td>Alıntıların: alıntı metni, kendi notların, etiketler, yıldızlar, sayfa numaraları, kitap adı ve yazar, zaman damgaları</td><td>Arşivin kendisi bu — ürünün özü</td><td>Sen silene kadar</td></tr>
+  <tr><td>Tarama sayaçları (kaç çıkarma yaptığın ve ne zaman)</td><td>Ücretsiz ve abonelik sınırlarını uygulamak, kötüye kullanımı engellemek için</td><td>Hesabını silene kadar</td></tr>
+  <tr><td>Abonelik kayıtları: Apple işlem kimliği, ürün kimliği, bitiş tarihi, ortam</td><td>Aboneliğinin geçerli olup olmadığını bilmek için</td><td>Hesabını silene kadar</td></tr>
+  <tr><td>Teknik ölçümler: bir isteğin kaç token kullandığı, ne kadar sürdüğü, hangi model ve prompt sürümünün çalıştığı</td><td>Maliyeti ve kaliteyi izlemek için</td><td>Kısa süreli sunucu logu</td></tr>
+</table>
+
+<h3>Fotoğraflar</h3>
+<div class="box">
+  <p><strong>Fotoğrafların saklanmıyor.</strong> Kitap sayfasının fotoğrafı sunucumuza gidiyor, metin çıkarımı için AI sağlayıcısına iletiliyor ve metin döndüğü an atılıyor. Arşivine yalnızca çıkarılan metin kaydediliyor. Uygulamanın görsel deposu yok; fotoğraflar hiçbir kovaya ya da veritabanına yüklenmiyor.</p>
+</div>
+
+<h3>Uygulamanın toplamadıkları</h3>
+<ul>
+  <li>Analitik, telemetri ya da çökme raporlama SDK'sı yok. Uygulamada hiçbir türde izleme kütüphanesi bulunmuyor.</li>
+  <li>Reklam kimliği yok. Reklam yok; reklam amacıyla satılan ya da paylaşılan veri yok.</li>
+  <li>Konum, rehber, takvim, sağlık ya da mikrofon verisi yok.</li>
+  <li>Sunucu logunda alıntılarının içeriği yok — yalnızca sayılar ve süreler loglanıyor, metin ya da görsel asla.</li>
+</ul>
+
+<h2>3. Fotoğraflar AI tarafından nasıl işleniyor</h2>
+<p>Metin çıkarımını <strong>Google'ın Gemini API'si</strong> yapıyor. Fotoğraf cihazından sunucumuza, oradan Google'a gidiyor. AI sağlayıcısının anahtarı yalnızca sunucuda duruyor; uygulamanın içinde hiç bulunmuyor.</p>
+
+<div class="box">
+  <p><strong>[[ÜCRETSİZ KATMANDAYSAN BU PARAGRAF KALMALI]]</strong> Uygulama şu anda Google'ın ücretsiz API katmanını kullanıyor. Google'ın bu katmana ilişkin koşullarına göre Google, API'ye gönderilen içeriği — sayfa fotoğraflarını da — hizmetlerini ve modellerini geliştirmek için kullanabilir. Bu senin için önemliyse hassas bulduğun sayfaları taramamanı öneririz.</p>
+  <p><strong>[[ÜCRETLİ KATMANA GEÇTİĞİNDE YUKARIDAKİNİ SİL, BUNU BIRAK]]</strong> Uygulama Google'ın ücretli API katmanını kullanıyor. Google'ın bu katmana ilişkin koşullarına göre API'ye gönderilen içerik Google'ın modellerini eğitmek ya da geliştirmek için kullanılmıyor.</p>
+</div>
+
+<h2>4. Verini başka kim işliyor</h2>
+<table>
+  <tr><th>Sağlayıcı</th><th>Rolü</th><th>Ne alıyor</th></tr>
+  <tr><td>Supabase</td><td>Barındırma, veritabanı, kimlik doğrulama</td><td>Hesabın ve arşivin</td></tr>
+  <tr><td>Google (Gemini API)</td><td>Görselden metin çıkarma</td><td>Sayfa fotoğrafı, geçici olarak</td></tr>
+  <tr><td>Apple</td><td>Apple ile Giriş, abonelik tahsilatı, uygulama dağıtımı</td><td>Apple'ın kendi koşullarının kapsadığı kadarı; biz yalnızca işlem kimliği ve bitiş tarihi alıyoruz</td></tr>
+  <tr><td>Brevo</td><td>Şifre sıfırlama e-postasını göndermek</td><td>E-posta adresin, yalnızca sıfırlama istediğinde</td></tr>
+</table>
+<p>Verin Supabase altyapısında [[SUPABASE BÖLGESİ]] bölgesinde tutuluyor. Uygulamayı bu bölgenin dışından kullanıyorsan verin oraya aktarılıyor.</p>
+<p>Verini satmıyoruz. Yukarıdaki sağlayıcılar dışında kimseyle paylaşmıyoruz.</p>
+
+<h2>5. Uygulama hesapsız da çalışıyor</h2>
+<p>Giriş yapmadan yerel arşivi kullanabilirsin; oluşturduğun alıntılar cihazında kalır. Giriş yapmak bulut yedeği ekliyor ve AI çıkarımı için gerekli — çünkü çıkarma sınırları ve abonelik hesaba bağlı.</p>
+
+<h2>6. Haklarını</h2>
+<p>Verine erişmeyi, düzeltilmesini, taşınmasını ya da silinmesini isteyebilir, işlenmesine itiraz edebilir, rızanı geri alabilirsin. Türkiye'de KVKK 11. madde, AEA veya Birleşik Krallık'taysan GDPR 15–22. maddeler doğrudan geçerli.</p>
+<p>Bunlardan ikisi uygulamada gömülü, talep gerektirmiyor:</p>
+<ul>
+  <li><strong>Bir alıntıyı ya da kitabı sil</strong> — uygulamanın içinden, dilediğin an.</li>
+  <li><strong>Hesabını sil</strong> — Profil → Hesabı sil. Hesabın ve buluta senkronlanmış her şey kalıcı olarak silinir. Cihazındaki arşive dokunulmaz; hesabından vazgeçiyor olabilirsin, notlarından değil.</li>
+</ul>
+<p>Diğer her şey için <a href="mailto:[[İLETİŞİM E-POSTASI]]">[[İLETİŞİM E-POSTASI]]</a> adresine yaz. Ayrıca veri koruma kurumuna şikâyet hakkın var (Türkiye'de KVKK Kurulu).</p>
+
+<h2>7. Güvenlik</h2>
+<ul>
+  <li>Bütün trafik HTTPS/TLS üzerinden.</li>
+  <li>Her tabloda satır düzeyi güvenlik açık: veritabanı bir kullanıcının satırlarını başkasına döndürmeyi reddediyor.</li>
+  <li>AI sağlayıcısının anahtarı yalnızca sunucu secret'ı olarak var. Uygulama paketinde bulunmuyor ve oradan çıkarılamaz.</li>
+  <li>Şifreleri Supabase Auth yönetiyor; bizim görebildiğimiz bir yerde durmuyorlar.</li>
+</ul>
+<p>Hiçbir sistem kusursuz güvenli değil. Bir açık bulursan yayınlamadan önce bize yazmanı rica ederiz.</p>
+
+<h2>8. Çocuklar</h2>
+<p>Uygulama [[YAŞ]] yaşından küçükler için tasarlanmadı. Onlardan bilerek veri toplamıyoruz. Bir çocuğun hesap açtığını düşünüyorsan bize yaz, kaldıralım.</p>
+
+<h2>9. Telif ve ne fotoğrafladığın</h2>
+<p>Taradığın sayfaları fotoğraflama hakkına sahip olmaktan sen sorumlusun. Uygulama okuduğun kitaplardan kişisel alıntılar tutmak için yapıldı — ayrıntısı Kullanım Koşulları'nda.</p>
+
+<h2>10. Değişiklikler</h2>
+<p>Bu metin esaslı biçimde değişirse uygulama yeni sürümü gösterir ve yasa gerektirdiği yerde rızanı yeniden ister. Yukarıdaki “son güncelleme” tarihi her zaman geçerli sürümü yansıtır.</p>
+
+<h2>11. İletişim</h2>
+<p><a href="mailto:[[İLETİŞİM E-POSTASI]]">[[İLETİŞİM E-POSTASI]]</a></p>
+
+<footer>
+  <p>Linea AI · <a href="kullanim-kosullari.html">Terms of Use / Kullanım Koşulları</a></p>
+</footer>
+
+</body>
+</html>
